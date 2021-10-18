@@ -1,0 +1,138 @@
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(37, 35, 35);
+
+}
+
+
+
+a {
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+body {
+background-color: antiquewhite;
+font: 400 1rem 'DM Sans', sans-serif;
+color: var(--text-color);
+background: var(--body-color);
+-webkit-font-smoothing: antialiased;
+
+}
+
+#titulo {
+
+    color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+
+    
+    }
+
+
+
+
+#header {
+
+border-bottom: 2px solid #e4e4e4;
+margin-bottom: 0;
+display: flex;
+
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+background-color: var(--body-color);
+width: 100%;
+
+}
+
+
+.menu {
+display: flex;
+margin-right: 100px;
+}
+
+nav {
+
+    height: var(--header-height);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  
+
+    }
+
+.text {
+    
+    text-align: center;
+    color: white;     
+    display: block;
+    margin: 150px;
+    
+}
+
+h2 {
+    color: orange;
+}
+
+
+h1 {
+
+     color: rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.logo {
+    font: 700 1.31rem 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+  }
+
+  .logo span {
+    color: orange;
+  }
+
+
+.button {
+    background-color: var(--base-color);
+    color: var(--text-color-light);
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 0.25rem;
+    font: 500 1rem 'DM Sans', sans-serif;
+    transition: background 0.3s;
+    
+    }
+
+
+h2 {
+ color: orange;
+}
+
+img {
+ border-radius: 10%;
+
+}
+
+.paginaprincipal {
+
+    color: orange;
+    
+}

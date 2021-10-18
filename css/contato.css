@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(37, 35, 35);
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+#header {
+
+    border-bottom: 2px solid #e4e4e4;
+    margin-bottom: 0;
+    display: flex;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--body-color);
+    width: 100%;
+    }
+    
+    .logo {
+        font: 700 1.31rem 'Poppins', sans-serif;
+        color: rgb(255, 255, 255);
+             margin: 15px;
+      }
+    
+    .logo span {
+        color: orange;
+      }
+    
+    
+    
+    .menu {
+    
+    
+        display: flex;
+        margin-right: 100px;
+    }
+
+    .body {
+    background-color: antiquewhite;
+    font: 400 1rem 'DM Sans', sans-serif;
+    color: var(--text-color);
+    background: var(--body-color);
+    -webkit-font-smoothing: antialiased;
+} 
+
+    .form {
+      text-align: center;
+      margin-top: 100px;
+      color: orange;
+    font: 400 1rem 'DM Sans', sans-serif;
+       
+    -webkit-font-smoothing: antialiased;
+   
+    }
+    

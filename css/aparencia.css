@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(37, 35, 35);
+
+}
+
+
+
+a {
+    text-decoration: none;
+    
+}
+
+#header {
+
+border-bottom: 2px solid #e4e4e4;
+margin-bottom: 0;
+display: flex;
+
+position: fixed;
+top: 0;
+left: 0;
+z-index: 100;
+background-color: var(--body-color);
+width: 100%;
+}
+
+.logo {
+    font: 700 1.31rem 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+         margin: 15px;
+  }
+
+.logo span {
+    color: orange;
+  }
+
+
+
+.menu {
+
+
+    display: flex;
+    margin-right: 100px;
+}
+
+body {
+    background-color: antiquewhite;
+    font: 400 1rem 'DM Sans', sans-serif;
+    color: var(--text-color);
+    background: var(--body-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+
+#titulo {
+
+color: orange;
+text-align: center;
+margin: 0px;
+}
+
+.paragrafo {
+ margin: 30px;
+ text-align: justify;
+ width: 500px;
+ height: 250px;
+ margin-left: 677px;
+ 
+}
+
+
+
+
+
+.text {
+    
+    text-align: left;
+    color: white;
+    margin: 30px;
+    margin-top: 200px;        
+}
+
+.nav,h3 {
+
+    color: orange;
+}
+
+
+
+#sobre {
+ text-align: center;
+
+}
+
+#formacao {
+
+    text-align: center;
+}
+
+#atuacao {
+    
+    text-align: center;
+}
+
+#hobbies {
+    
+   text-align: center;
+}
+    
+.button {
+    background-color:orange;
+    color: rgb(255, 255, 255);
+    height: 3rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    font: 500 1rem 'DM Sans', sans-serif;
+    transition: background 0.3s;
+    border: 5px solid orange;
+    margin-top: 50px;
+    
+    
+    
+    }
+ li {
+ 
+ 
+ text-align: center;
+ margin: 30px;
+ margin-left: 677px;
+  display:flex;
+  
+
+
+}
+
+
+nav {
+
+    height: var(--header-height);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  
+
+    }
+
+h2 {
+    color: orange;
+    text-align: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
