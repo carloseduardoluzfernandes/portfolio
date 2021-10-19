@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     background-color: rgb(37, 35, 35);
+    
 
 }
 
@@ -15,16 +16,16 @@ a {
 
 #header {
 
-border-bottom: 2px solid #e4e4e4;
-margin-bottom: 0;
-display: flex;
+    border-bottom: 2px solid #e4e4e4;
+    margin-bottom: 0;
+    display: flex;
 
-position: fixed;
-top: 0;
-left: 0;
-z-index: 100;
-background-color: var(--body-color);
-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--body-color);
+    width: 100%;
 }
 
 .logo {
@@ -44,6 +45,7 @@ width: 100%;
 
     display: flex;
     margin-right: 100px;
+    
 }
 
 body {
@@ -55,19 +57,22 @@ body {
 }
 
 
+
+
 #titulo {
 
-color: orange;
-text-align: center;
-margin: 0px;
+    color: orange;
+    text-align: center;
+    margin: 30px;
+
 }
 
 .paragrafo {
- margin: 30px;
- text-align: justify;
- width: 500px;
- height: 250px;
- margin-left: 677px;
+    margin: 25px;
+    text-align: justify;
+    width: 500px;
+    height: 250px;
+    margin-left: 677px;
  
 }
 
@@ -91,7 +96,7 @@ margin: 0px;
 
 
 #sobre {
- text-align: center;
+    text-align: center;
 
 }
 
@@ -107,11 +112,11 @@ margin: 0px;
 
 #hobbies {
     
-   text-align: center;
+    text-align: center;
 }
     
 .button {
-    background-color:orange;
+
     color: rgb(255, 255, 255);
     height: 3rem;
     display: inline-flex;
@@ -122,17 +127,21 @@ margin: 0px;
     transition: background 0.3s;
     border: 5px solid orange;
     margin-top: 50px;
-    
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 2px 2px black;
     
     
     }
  li {
  
  
- text-align: center;
- margin: 30px;
- margin-left: 677px;
-  display:flex;
+    text-align: center;
+    margin: 30px;
+    margin-left: 677px;
+    display:flex;
   
 
 

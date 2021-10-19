@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
     <link rel="stylesheet" href="css/contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    
 </head>
 
 
@@ -25,25 +28,56 @@
 <main>
 
 
+    
 
-    <form>
-        <h1>nome</h1><br>
-        <input type="text"  required="true" minlength="1" maxlength="250" placeholder="digite aqui o seu nome"><br>
-        <h1>email</h1><br>
-        <input type="email"><br>
-        <h1>senha</h1><br>
-        <input type="password"><br>
-        <h1>idade</h1><br>
-        <input type="number" required="true" minlength="7" maxlength="7"><br>
-        <h1>data de nascimento</h1><br>
-        <input type="date"><br> <br>
-        <h1>cor preferida</h1><br>
-        <input type="color">
-        <br>
+    <form class="form">
+        
+        <div class="campo">
+        
+        <label><h2>Nome</h2></label><br>
+        <input type="text"  required="true" minlength="1" maxlength="250" placeholder="Digite aqui o seu nome"><br>
+        
+        
+    </div>
+
+        <div class="campo">
+
+        <label><h2>Email</h2></label><br>
+        <input type="email" placeholder="Digite seu email aqui..."><br>
+    </div>
+
+ 
+        <div class="campo">
+
+        <label><h2>Telefone</h2></label><br>
+        <input type="tel" placeholder="Digite sua senha aqui..."><br>
+    </div>
+        
+        <div class="campo">
+    
+        <label><h2>Idade</h2></label><br>
+        <input type="number" required="true" minlength="7" maxlength="7" placeholder="Selecione sua idade aqui..."><br>
+    </div>
+
+        <div class="campo">
+
+        <label><h2>Data de nascimento</h2></label><br>
+        <input type="date"> <br>
+    </div>
+
+
+        <div class="subreset">
         <input type="submit" value="Enviar">
         
-        <input type="reset" value="limpar">
-        </div>
+        <input type="reset" value="Limpar">
+
+       
+    </div>
+   </form>
+
+   
+   <video class= "video" controls src="video/portfoliosinsanos.mp4" width="300px"> Sobre alguns portfólios</video>
+
 
 </main>
 
